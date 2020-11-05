@@ -1,5 +1,6 @@
 import React from 'react';
 import {GoogleLogin} from 'react-google-login';
+import {GoogleButton}  from './login/buttonComponent';
 
 
 const LoginG = () =>{
@@ -18,9 +19,11 @@ const LoginG = () =>{
     return (
         <GoogleLogin
            clientId = {clientId}
+           render={renderProps => (
+            <GoogleButton onClick={renderProps.onClick} disabled={renderProps.disabled}> </GoogleButton>
+          )}
            onSuccess = {responseSuccess}
            onFailure = {responseFailure}
-           buttonText = "Login"
            cookiePolicy = {'single_host_origin'}
         />
     );
