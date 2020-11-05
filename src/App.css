@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+.flex-box{
+  display: flex;
+  flex-direction: column;
+   border : 1px solid rgb(73, 73, 73);
+   max-width : 30%;
+   margin : 0% auto;
+   min-height: 60vh;
+}
+
+.btn{
+  padding: 15px 40px;
+  font-weight: bolder;
+  color: white;
+  margin : 0 auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  outline: none;
+  border:none;
+}
+
+.login-title{
+  font-size: 2rem;
+  font-weight: lighter;
+  color: #3b3d41;
+}
+
+.btn-google{
+  background-color: #D64637;
+}
+.btn-google:hover{
+  background-color: #be3020;
+}
+
+.btn-fb{
+   background-color: #222F87;
+}
+.btn-fb:hover{
+  background-color: #0b1b81;
+}
+
+.btn-linkedIn{
+  background-color: #0E6891;
+}
+
+.btn-linkedIn:hover{
+  background-color: #095172;
+}
