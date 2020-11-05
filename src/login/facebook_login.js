@@ -20,6 +20,7 @@ const LoginFB = () =>{
              fields = "name, email, picture"
              onClick = {componentClicked}
              callback = {responseFacebook}
+             cssClass = "btn btn-fb"
           />
       );
 }
