@@ -5,14 +5,14 @@ import {GoogleLogin} from 'react-google-login';
 const LoginG = () =>{
     const clientId = "682685397242-sajgu06dml71ckcvin5r68rsi72ahoip.apps.googleusercontent.com";
 
-    const responseSuccess = () =>{
+    const responseSuccess = (response) =>{
         alert('Success!! ');
-        console.log("Login successful ");
+        console.log(response);
     }
 
-    const responseFailure = () =>{
+    const responseFailure = (response) =>{
         alert ("Unable to Login !!");
-        console.log("Login failure !");
+        console.log(response);
     }
 
     return (
