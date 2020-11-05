@@ -20,10 +20,11 @@ const LoginG = () =>{
         <GoogleLogin
            clientId = {clientId}
            render={renderProps => (
-            <GoogleButton onClick={renderProps.onClick} disabled={renderProps.disabled}> </GoogleButton>
+            <GoogleButton onClick={renderProps.onClick} disabled={renderProps.disabled}>This is my custom Google button</GoogleButton>
           )}
            onSuccess = {responseSuccess}
            onFailure = {responseFailure}
+           buttonText = "Login"
            cookiePolicy = {'single_host_origin'}
         />
     );
