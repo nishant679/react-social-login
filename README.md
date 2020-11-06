@@ -1,3 +1,12 @@
+# App is hosted at 
+[social login app](https://nishant-social-login.herokuapp.com/)
+
+# To read the API 
+go to wiki 
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
