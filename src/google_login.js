@@ -17,16 +17,16 @@ const LoginG = () =>{
     }
 
     return (
-        <GoogleLogin
-           clientId = {clientId}
-           render={renderProps => (
-            <GoogleButton onClick={renderProps.onClick} disabled={renderProps.disabled}>This is my custom Google button</GoogleButton>
-          )}
-           onSuccess = {responseSuccess}
-           onFailure = {responseFailure}
-           buttonText = "Login"
-           cookiePolicy = {'single_host_origin'}
-        />
+            <GoogleLogin
+             clientId= {clientId}
+             render={renderProps => (
+                <button className="btn btn-google" onClick={renderProps.onClick} disabled={renderProps.disabled}>Continue with Google</button>
+              )}
+             buttonText="Continue With Google"
+             onSuccess={responseSuccess}
+             onFailure={responseFailure}
+             cookiePolicy={'single_host_origin'}
+            />
     );
 
 }
