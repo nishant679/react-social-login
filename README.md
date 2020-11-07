@@ -1,8 +1,19 @@
+# Social Login App
+This is a Social Login app, developed for demonstration purpose. /
+This app provides interface to login using google, facebook and LinkedIn. /
+The value received on successfully authentication with the facebook and google app /
+is dumped to the console. 
+
+### Dependency Libraries
+**react-google-login** / 
+**react-facebook-login** /
+**react-linkedin-login-oauth2**
+
 # App is hosted at 
 [social login app](https://nishant-social-login.herokuapp.com/)
 
 # To read the API 
-go to wiki 
+[response doc](https://github.com/nishant679/react-social-login/wiki/Social-Login-App-Response-Documentation)
 
 
 
